@@ -237,6 +237,10 @@ button:active {
  background-color: rgb(0, 0, 0);
 }
 
+.sections{
+	min-width: 200px;
+}
+
 .section-two {
 	background-color: rgb(14, 13, 13);
 	color: #fff;
@@ -328,7 +332,8 @@ footer{
 		padding: 2em 4em;
 	}
 
-	.section-three p{
+	.section-three p,
+	.section-two p {
 		float: right;
 	}
 
